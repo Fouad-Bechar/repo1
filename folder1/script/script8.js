@@ -1,0 +1,2 @@
+function chang(img) { img.src ="https://s-media-cache-ak0.pinimg.com/originals/ae/72/95/ae729592ef9cff014e5b7bd2f0292fbd.gif"; }
+function reteur(img) { img.src = "https://media.tinmoi.vn/upload/nguyenhuong/2020/09/01/154917-trai-dat-3.jpg"; }

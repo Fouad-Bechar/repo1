@@ -1,0 +1,1 @@
+function myfunction1() { confirm ("Are you sure about the information"); }
