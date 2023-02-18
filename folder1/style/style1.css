@@ -254,7 +254,7 @@ column-rule-style: dotted; }
 color: black;
 padding: 1%;
 text-align: center; }*/
-.b4{ color: blue;
+.b4{ color: transparent;
 text-align: center; 
 animation-name: changecolore;
 animation-duration: 1s;
@@ -292,7 +292,7 @@ margin-right: auto;
 cursor: pointer; }
 /*align-items: center; }*/
 .span001 img { width: 60px;
-height: 60px; grid-gap: }
+height: 60px;  }
 .taim { align-items: center;
 height: 40px;
 background-color: blue; 
@@ -507,11 +507,11 @@ opacity: 0; }
 50%{ color: rgb(255, 0, 247); }
 100%{ color: rgb(2, 255, 221);} }
 @keyframes changecolore {
-0%{ color: blue; }
-25%{ color: gold; }
-50%{ color: blue; }
-75%{ color: gold; }
-100%{ color: blue; } }
+0%{ color: transparent; }
+25%{ color: rgb(255, 6, 255); }
+50%{ color: transparent; }
+75%{ color: rgb(255, 6, 255); }
+100%{ color: transparent; } }
 @keyframes changecolore2 {
 0%{ color:cyan; }
 25%{color: rgba(0, 0, 0, 0); }

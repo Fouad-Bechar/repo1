@@ -1,11 +1,8 @@
 
 var pausecontent = new Array()
 pausecontent[0] = '<img border="0" src="images/image001.webp" alt="image" width="225px" height="140px">'
-pausecontent[1] = '<img border="0" src="images/image002.webp" alt="image" width="225px" height="140px">'
-pausecontent[2] = '<img border="0" src="images/image003.webp" alt="image" width="225px" height="140px">'
-pausecontent[3] = '<img border="0" src="images/image004.webp"alt="image" width="225px" height="140px">'
-pausecontent[4] = '<img border="0" src="images/image005.webp" alt="image" width="225px" height="140px">'
-
+pausecontent[1] = '<img border="0" src="images/image004.webp" alt="image" width="225px" height="140px">'
+pausecontent[2] = '<img border="0" src="images/image005.webp" alt="image" width="225px" height="140px">'
 function pausescroller(content, divId, divClass, delay) {
 this.content = content
 this.tickerid = divId 
