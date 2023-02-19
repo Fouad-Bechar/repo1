@@ -254,7 +254,7 @@ column-rule-style: dotted; }
 color: black;
 padding: 1%;
 text-align: center; }*/
-.b4{ color: transparent;
+.b4{ color: aqua;
 text-align: center; 
 animation-name: changecolore;
 animation-duration: 1s;
@@ -292,7 +292,7 @@ margin-right: auto;
 cursor: pointer; }
 /*align-items: center; }*/
 .span001 img { width: 60px;
-height: 60px;  }
+height: 60px; }
 .taim { align-items: center;
 height: 40px;
 background-color: blue; 
@@ -481,10 +481,7 @@ background-color: #3e8e41;
 box-shadow: 0 2px #666;
 transform: translateY(4px); }
 @media screen and (max-width: 800px) {
-  .f13 {
-    display: block;
-  }
-}
+.f13 { display: block; } }
 @keyframes fade {
 0% { opacity: 0; }
 5% { opacity: 1; }
@@ -507,11 +504,11 @@ opacity: 0; }
 50%{ color: rgb(255, 0, 247); }
 100%{ color: rgb(2, 255, 221);} }
 @keyframes changecolore {
-0%{ color: transparent; }
-25%{ color: rgb(255, 6, 255); }
-50%{ color: transparent; }
-75%{ color: rgb(255, 6, 255); }
-100%{ color: transparent; } }
+0%{ color: cyan; }
+25%{ color: transparent; }
+50%{ color: cyan; }
+75%{ color: transparent; }
+100%{ color: cyan; } }
 @keyframes changecolore2 {
 0%{ color:cyan; }
 25%{color: rgba(0, 0, 0, 0); }
