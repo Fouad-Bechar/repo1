@@ -359,7 +359,7 @@ box-shadow: 1px 1px 10px black; }
 .wrapper { width: 400px;
 height: 240px;
 position: fixed;
-top: 30%;
+top: 40%;
 left: 50%;
 z-index: 2;
 transform: translate(-50%, -50%);
