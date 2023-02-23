@@ -12,6 +12,10 @@
 <div class="p1">
 <a href="index.html"><img class="img01" src="images/image16.webp"></a></div> 
 <?php
+use PHPMailer\PHPMailer\PHPMailer;
+use PHPMailer\PHPMailer\SMTP;
+use PHPMailer\PHPMailer\Exception;
+require 'Mailer/autoload.php';
 $username = "epiz_33373847";
 $pasword = "itBv7uZQQu";
 $database = new PDO ("mysql:host=sql210.epizy.com; dbname=epiz_33373847_db1contact; charset=utf8;",$username ,$pasword);
@@ -53,8 +57,23 @@ $addData->bindParam("fileName", $fileName);
 $addData->bindParam("fileType", $fileType);
 $addData->bindParam("position", $position);
 if($addData->execute()) { 
-echo "<div class=p2>"."<h1 class=hh1>".$prenom1."&nbsp".$nom1."</h1>"."<h2 >"."<p id=demoo>"."</p>"."<p id=demoo1>"."</p>"."</h2>".
-"<img src='"."https://cdn.statically.io/img/egyresmag.com/file/2021/03/26tOZ42Mg6pbTUPHW.gif?quality=90&f=auto"."' class='img12'/>"."</div>"; } 
+$mail = new PHPMailer();                    
+$mail->isSMTP();                                           
+$mail->Host       = 'smtp.gmail.com';                    
+$mail->SMTPAuth   = true;                                   
+$mail->Username   = 'email.address.fouad@gmail.com';                   
+$mail->Password   = 'rsxciabglslrqmhn';                              
+$mail->SMTPSecure = "ssl";           
+$mail->Port       = 465;                                    
+$mail->isHTML(true); 
+$mail->CharSet = "UTF-8";
+$mail->setFrom('email.address.fouad@gmail.com', 'Fouad');
+$mail->addAddress($email1);
+$mail->Subject = 'Hello my friend';
+$mail->Body    = 'We thank you for your contact</b>';
+$mail->send();
+echo "<div class=p2>"."<h1 class=hh1>".$prenom1."&nbsp".$nom1."</h1>"."<h2 class=hhh2>"."<p id=demoo>"."</p>"."<p id=demoo1>"."</p>"."</h2>"."</div>".
+"<img src='"."https://cdn.statically.io/img/egyresmag.com/file/2021/03/26tOZ42Mg6pbTUPHW.gif?quality=90&f=auto"."' class='img12'/>"; } 
 else { echo "<center>"."<h1 class=hh12>"."Sending error"."</h1>"."</center>"; } }
 ?>
 <script src="script/script13.js"></script>
