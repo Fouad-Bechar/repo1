@@ -59,21 +59,29 @@ $addData->bindParam("position", $position);
 if($addData->execute()) { 
 $mail = new PHPMailer();                    
 $mail->isSMTP();                                           
-$mail->Host       = 'smtp.gmail.com';                    
-$mail->SMTPAuth   = true;                                   
-$mail->Username   = 'email.address.fouad@gmail.com';                   
-$mail->Password   = 'rsxciabglslrqmhn';                              
+$mail->Host = 'smtp.gmail.com';                    
+$mail->SMTPAuth = true;                                   
+$mail->Username = 'email.address.fouad@gmail.com';                   
+$mail->Password = 'rsxciabglslrqmhn';                              
 $mail->SMTPSecure = "ssl";           
-$mail->Port       = 465;                                    
+$mail->Port = 465;                                    
 $mail->isHTML(true); 
 $mail->CharSet = "UTF-8";
 $mail->setFrom('email.address.fouad@gmail.com', 'Fouad');
 $mail->addAddress($email1);
 $mail->Subject = 'Hello my friend';
-$mail->Body    = 'We thank you for your contact</b>';
+$mail->Body = '<!DOCTYPE html> <html lang="en"> <head>
+<meta charset="UTF-8">
+<meta http-equiv="X-UA-Compatible" content="IE=edge">
+<meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
+<body style="background-color: black;"> <div>
+<p style="color: fuchsia; font-weight: bold; text-align:center">We thank you for your contact </p>
+<img src="https://www.radiofrance.fr/s3/cruiser-production/2022/02/1b5f469a-e5f4-4159-a0ca-cf1a9371ef09/560x315_roses-bouquet-fleurs.webp" alt="image" width="200px" height="auto" style="display: block; margin-left: auto; margin-right: auto; border-radius: 20px"/>
+<footer style="margin-bottom:10px;"> <center> <a href="https://www.amazon.com/" style="text-decoration: none; font-weight: bold; color: fuchsia;text-align:center"> For the best goods at the best prices, click here </a> </center> </footer>
+</div> </body> </html>';
 $mail->send();
 echo "<div class=p2>"."<h1 class=hh1>".$prenom1."&nbsp".$nom1."</h1>"."<h2 class=hhh2>"."<p id=demoo>"."</p>"."<p id=demoo1>"."</p>"."</h2>"."</div>".
-"<img src='"."https://cdn.statically.io/img/egyresmag.com/file/2021/03/26tOZ42Mg6pbTUPHW.gif?quality=90&f=auto"."' class='img12'/>"; } 
+"<img src='"."https://cdn.statically.io/img/egyresmag.com/file/2021/03/26tOZ42Mg6pbTUPHW.gif?quality=90&f=auto"."' class='img12' alt='image'/>"; } 
 else { echo "<center>"."<h1 class=hh12>"."Sending error"."</h1>"."</center>"; } }
 ?>
 <script src="script/script13.js"></script>
