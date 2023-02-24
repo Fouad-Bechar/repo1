@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="p1">
-<a href="index.html"><img class="img01" src="images/image16.webp"></a></div> 
+<a href="https://fouad.rf.gd/"><img class="img01" src="images/image16.webp"></a></div> 
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;

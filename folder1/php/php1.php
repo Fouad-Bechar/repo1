@@ -9,7 +9,7 @@
 <title>Fouad</title>
 </head>
 <body>
-<a href="index.html"><img class="img01" src="images/image16.webp"></a></div> 
+<a href="https://fouad.rf.gd/"><img class="img01" src="images/image16.webp"></a></div> 
 <center>
 <div class="ifr1">
 <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d83261.26422897134!2d-0.6397422488171269!3d35.733897160965306!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0xd7e6327b5bf40fd%3A0x546592a00a2014d5!2sBir%20El%20Djir!5e1!3m2!1sfr!2sdz!4v1672609383260!5m2!1sfr!2sdz" width="600" height="450" style="border:3px solid black; box-shadow: 1px 1px 10px black;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe></div>
