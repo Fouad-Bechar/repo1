@@ -16,26 +16,26 @@
 <h2 class="b4">You are welcome</h2>
 <form action="php2.php" method="POST" enctype="multipart/form-data">
 <fieldset>
-<table class="tabb">
-<tr><td><b>First name</b></td></tr><tr><td><input type="text" name="prenom" required></td></tr>
+<table>
+<tr><td><b>First name</b></td></tr><tr><td><input type="text" name="prenom" placeholder="First name" required></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
-<tr><td><b>Last name</b></td></tr><tr><td><input type="text" name="nom" required></td></tr>
+<tr><td><b>Last name</b></td></tr><tr><td><input type="text" name="nom" placeholder="Last name" required></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
-<tr><td><b>Gender</b></td></tr><tr><td><select name="sexe" required >
-<option></option>
+<tr><td><b>Gender</b></td></tr><tr><td><select name="sexe" required>
+<option>- - - - - -</option>
 <option value="MASCULIN">masculine</option>
 <option value="FEMININ">feminine</option>
 </select></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
 <tr><td><b>Date of Birth</b></td></tr><tr><td><input type="Date" name="daten" required></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
-<tr><td><b>E-mail</b></td></tr><tr><td><input type="email" name="email" required></td></tr>
+<tr><td><b>E-mail</b></td></tr><tr><td><input type="email" name="email" placeholder="E-mail" required></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
-<tr><td><b>Phone</b></td></tr><tr><td><input type="tel" name="tel"></td></tr>
+<tr><td><b>Phone</b></td></tr><tr><td><input type="tel" name="tel" placeholder="Phone"></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
-<tr><td><b>Address</b></td></tr><tr><td><input type="text" name="adresse"></td></tr>
+<tr><td><b>Address</b></td></tr><tr><td><input type="text" name="adresse" placeholder="Address"></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
-<tr><td><b >Your message</b></td></tr><tr><td><textarea name="textarea"rows="10" cols="50"></textarea></td></tr>
+<tr><td><b >Your message</b></td></tr><tr><td><textarea name="textarea"rows="10" cols="50" placeholder="Your message"></textarea></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
 <tr><td><b >File to be attached (< 5Mo)</b></tr><tr><td><input id="bt0" type="file" name="file"/></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
