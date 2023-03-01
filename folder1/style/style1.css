@@ -484,6 +484,15 @@ box-shadow: 0 2px #666;
 transform: translateY(4px); }
 @media screen and (max-width: 800px) {
 .f13 { display: block; } }
+@media screen and (max-width: 800px) {
+.body1 { background-image: url("images/image00.webp");
+background-repeat : no-repeat;
+background-position: center center;
+background-attachment: fixed;
+-webkit-background-size: cover;
+-moz-background-size: cover;
+-o-background-size: cover;
+background-size: cover; } }
 @keyframes fade {
 0% { opacity: 0; }
 5% { opacity: 1; }
@@ -539,121 +548,3 @@ opacity: 0; }
 100%{ background-color: red; 
   background-image: linear-gradient(to right, red, orange, yellow, green, blue, indigo, violet);
 } }
-
-
-/* @keyframes changebg { 
-0% {background-image: url("images/image1.jpg"); }
-50% {background-image: url("images/image13.jpg"); }
-90% {background-image: url("images/image1.jpg"); }
-100% {background-image: url("images/image1.jpg"); } }
-display: flex;
-align-items: center;
-justify-content: center; }
-:root { --effect: hover 1s linear infinite; }
-.diii { text-align: center; }
-.pp { display: inline-block;
-text-transform: uppercase;
-text-align: center;
-font-size: 4em;
-font-family: arial;
-font-weight: 600;
-transform: scale(.5);
-color: blue;
--webkit-text-stroke: 2px cornflowerblue; }
-.pp:nth-child(1) { animation: var(--effect); }
-.pp:nth-child(2) { animation: var(--effect) .125s; }
-.pp:nth-child(3) { animation: var(--effect) .25s; }
-.pp:nth-child(4) { animation: var(--effect) .375s }
-.pp:nth-child(5) { animation: var(--effect) .5s; }
-.pp:nth-child(6) { animation: var(--effect) .675s }
-.pp:nth-child(7) { animation: var(--effect) .75s; }
- /*.loader {display: block;
-margin-left: auto;
-margin-right: auto;
-margin-top: 5%;
-  border: 16px solid #f3f3f3;
-  border-radius: 50%;
-  border-top: 16px solid blue;
-  border-right: 16px solid green;
-  border-bottom: 16px solid red;
-  border-left: 16px solid pink;
-  width: 120px;
-  height: 120px;
-  -webkit-animation: spin 2s linear infinite;
-  animation: spin 2s linear infinite;
-}*/
-/*#status { display: block;
-margin-left: auto;
-margin-right :auto;
-margin-top: 5%; }
- .wait { 
-margin-top: 5px;
-      text-align: center;
-      color: rgb(241, 185, 0);
-    }*/
-/*#status { width: 100%;
-height: 100%;
-position: absolute;
-background-image: url("https://i0.wp.com/echaintechnology.com/wp-content/uploads/2018/12/echain_connected_world.gif?resize=480%2C270&ssl=1");
-background-repeat : no-repeat;
-background-position: center center;
-background-attachment: fixed;
--webkit-background-size: cover;
--moz-background-size: cover;
--o-background-size: cover;
-background-size: cover; }*/
-/*
-.spinner {
-  margin: 100px auto;
-  width: 50px;
-  height: 40px;
-  text-align: center;
-  font-size: 15px;
-}*/
-/*.iiim:hover {animation-name:shake ;
-animation-duration: 0.5s; 
-animation-iteration-count: 10;
-animation-timing-function: linear; }*/
-/* @keyframes shake {
-0% { transform: translate(1px, 1px) rotate(0deg); }
-10% { transform: translate(-1px, -2px) rotate(-1deg); }
-20% { transform: translate(-3px, 0px) rotate(1deg); }
-30% { transform: translate(3px, 2px) rotate(0deg); }
-40% { transform: translate(1px, -1px) rotate(1deg); }
-50% { transform: translate(-1px, 2px) rotate(-1deg); }
-60% { transform: translate(-3px, 1px) rotate(0deg); }
-70% { transform: translate(3px, 1px) rotate(-1deg); }
-80% { transform: translate(-1px, -1px) rotate(1deg); }
-90% { transform: translate(1px, 2px) rotate(0deg); }
-100% { transform: translate(1px, -2px) rotate(-1deg); } }*/
-/*@-webkit-keyframes spin {
-  0% { -webkit-transform: rotate(0deg); }
-  100% { -webkit-transform: rotate(360deg); }
-}
-@keyframes spin {
-  0% { transform: rotate(0deg); }
-  100% { transform: rotate(360deg); } }
-@keyframes hover {
-  0% {
-    transform: scale(.5);
-    color: #121212;
-    -webkit-text-stroke: 2px gray;
-  }
-  20% {
-    transform: scale(1);
-    color: pink;
-    -webkit-text-stroke: 3px red;
-    filter: drop-shadow(0 0 1px black)drop-shadow(0 0 1px black)drop-shadow(0 0 3px red)drop-shadow(0 0 5px red)hue-rotate(10turn);
-  }
-  50% {
-    transform: scale(.5);
-    color: #121212;
-    -webkit-text-stroke: 2px gray;
-  }
-.prog { border-radius: 10px;
-background-color:red; 
-color:white;
-padding: 1px;
-animation-name: changebagrounde;
-animation-duration: 5s;
-animation-iteration-count: infinite; }*/
