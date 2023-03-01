@@ -9,6 +9,22 @@
 <title>Fouad</title>
 </head>
 <body>
+<?php 
+if ($_SERVER["REQUEST_METHOD"] == "POST") {
+test_input($_POST["prenom"]);
+test_input($_POST["nom"]);
+test_input($_POST["sexe"]); 
+test_input($_POST["daten"]); 
+test_input($_POST["email"]); 
+test_input($_POST["tel"]); 
+test_input($_POST["adresse"]);
+test_input($_POST["textarea"]); } 
+function test_input($data) {
+$data = trim($data);
+$data = stripslashes($data);
+$data = htmlspecialchars($data);
+return $data; }
+?>
 <a href="https://fouad.rf.gd/"><img class="img01" src="images/image16.webp"></a></div> 
 <center>
 <div class="ifr1">

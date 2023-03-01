@@ -19,6 +19,7 @@ require 'Mailer/autoload.php';
 $username = "epiz_33373847";
 $pasword = "itBv7uZQQu";
 $database = new PDO ("mysql:host=sql210.epizy.com; dbname=epiz_33373847_db1contact; charset=utf8;",$username ,$pasword);
+$prenom01 = $nom01 = $sexe01 = $daten01 = $email01 = $tel01 = $adresse01 = $textarea01 = $fileName = $fileType = $fileData = $file ="";
 if(isset($_POST['button'])){
 $prenom01 = $_POST["prenom"];
 $prenom1 = strip_tags($prenom01);
