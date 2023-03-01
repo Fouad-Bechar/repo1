@@ -355,7 +355,9 @@ background-color: #ffffff; }
 .marq2{background-color: black;
 border: 1px solid black;
 box-shadow: 1px 1px 10px black; }
-.open{ cursor: pointer; }
+.open{ cursor: pointer;
+margin-left: 30%;
+margin-right: 30%; }
 .wrapper { width: 400px;
 height: 240px;
 position: fixed;
