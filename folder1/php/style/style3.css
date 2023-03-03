@@ -1,7 +1,7 @@
 *{margin: 0;
 padding: 0;
 font-family: Arial, sans-serif; }
-body { background-color: black; }
+body { background-color: lightblue; }
 .img12{ display:block;
 margin-left:auto;
 margin-right:auto;
@@ -13,15 +13,16 @@ box-shadow: 1px 1px 10px black; }
 .img01 {  display: block;
 margin-right: auto;
 margin-left: auto;
+cursor: pointer;
 width: 200px;
 height: 50px;
 border-radius: 20px;
-border: 1px solid darkslateblue;
-box-shadow: 1px 1px 10px darkslateblue; }
+border: 1px solid black;
+box-shadow: 1px 1px 10px black; }
 .p1{ margin-bottom: 20px; }
-.p2{ /*border: 15px solid transparent;
-border-image: url(images/image17.webp) 30 round;*/
+.p2{  background-image: url("https://cdn.statically.io/img/egyresmag.com/file/2021/03/26tOZ42Mg6pbTUPHW.gif?quality=90&f=auto");
 width: 60%;
+height: auto;
 margin: auto;
 padding: 10px; }
 .hh12 { color: crimson; }
@@ -29,15 +30,3 @@ padding: 10px; }
 text-align: center;
 margin-bottom: 5px; }
 .hhh2 { color: aliceblue; }
-/*animation-name: changecolore;
-animation-duration: 5s;
-animation-iteration-count: infinite; }
-a:link { text-decoration: none; }
-a:visited { text-decoration: none; }
-a:hover { text-decoration: none; }
-a:active { text-decoration: none; }
-@keyframes changecolore {
-0%{ color:blue; }
-25%{ color: rgb(255, 0, 225); }
-50%{ color: rgb(0, 255, 13); }
-75%{ color:coral ; } }*/

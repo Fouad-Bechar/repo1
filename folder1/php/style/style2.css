@@ -31,11 +31,13 @@ margin-top: 20px; }
 .img01 {  display: block;
 margin-right: auto;
 margin-left: auto;
+cursor: pointer;
 width: 200px;
 height: 50px;
 border-radius: 20px;
-border: 1px solid darkslateblue;
-box-shadow: 1px 1px 10px darkslateblue; }
+border: 1px solid black;
+box-shadow: 1px 1px 10px black; }
+.p1{ margin-bottom: 20px; }
 .prin { background-color: black;
 color: aliceblue;
 cursor: pointer;

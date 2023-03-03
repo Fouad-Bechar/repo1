@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="p1">
-<a href="https://fouad.rf.gd/"><img class="img01" src="images/image16.webp"></a></div> 
+<img class="img01" src="images/image16.webp" alt="image" onclick="myFunction('https://fouad.rf.gd/')"></div> 
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
@@ -75,16 +75,19 @@ $mail->Body = '<!DOCTYPE html> <html lang="en"> <head>
 <meta charset="UTF-8">
 <meta http-equiv="X-UA-Compatible" content="IE=edge">
 <meta name="viewport" content="width=device-width, initial-scale=1.0"> </head>
-<body style="background-color: black;"> <div>
-<p style="color: fuchsia; font-weight: bold; text-align:center">We thank you for your contact </p>
-<img src="https://www.radiofrance.fr/s3/cruiser-production/2022/02/1b5f469a-e5f4-4159-a0ca-cf1a9371ef09/560x315_roses-bouquet-fleurs.webp" alt="image" width="200px" height="auto" style="display: block; margin-left: auto; margin-right: auto; border-radius: 20px"/>
-<footer style="margin-bottom:10px;"> <center> <a href="https://www.amazon.com/" style="text-decoration: none; font-weight: bold; color: fuchsia;text-align:center"> For the best goods at the best prices, click here </a> </center> </footer>
-</div> </body> </html>';
+<body style="background-color: black; font-family: sans-serif; margin-left: 4%;
+margin-right: 4%"> 
+<div> <p style="color: aliceblue; font-weight: bold; text-align:center">We thank you for your contact </p>
+<img src="https://i.pinimg.com/564x/91/0b/e0/910be08d0ca8ae70a82722665f35e617.jpg" alt="image" width="200px" height="auto" style="display: block; margin-left: auto; margin-right: auto; border-radius: 20px"/> </div>
+<footer style="margin-bottom:10px"> <center> <font color="cyan"> For the best goods at the best prices, </font> <a href="https://www.amazon.com/" style="text-decoration: none; font-weight: bold; color: blue"> click here </a> </center> </footer>
+</body> </html>';
 $mail->send();
-echo "<div class=p2>"."<h1 class=hh1>".$prenom1."&nbsp".$nom1."</h1>"."<h2 class=hhh2>"."<p id=demoo>"."</p>"."<p id=demoo1>"."</p>"."</h2>"."</div>".
-"<img src='"."https://cdn.statically.io/img/egyresmag.com/file/2021/03/26tOZ42Mg6pbTUPHW.gif?quality=90&f=auto"."' class='img12' alt='image'/>"; } 
-else { echo "<center>"."<h1 class=hh12>"."Sending error"."</h1>"."</center>"; } }
+echo "<div class=p2>"."<h1 class=hh1>".$prenom1."&nbsp".$nom1."</h1>"."<h2 class=hhh2>"."<p id=demoo>"."</p>"."<p id=demoo1>"."</p>"."</h2>"."</div>"; }
+#"<img src='"."https://cdn.statically.io/img/egyresmag.com/file/2021/03/26tOZ42Mg6pbTUPHW.gif?quality=90&f=auto"."' class='img12' alt='image'/>"; } 
+else { echo "<center>"."<h1 class=hh12>"."Sending error"."</h1>"."</center>"; }
+$database = null; }
 ?>
+<script src="script/script7.js"></script>
 <script src="script/script13.js"></script>
 </body>
 </html>
