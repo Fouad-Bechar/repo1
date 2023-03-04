@@ -253,10 +253,6 @@ font-weight: bold;
 cursor: pointer; }
 .p1{color: #ffffff;
 font-weight: bold; }
-/*
-animation-name: changecolore;
-animation-duration: 1s;
-animation-iteration-count: infinite; }*/
 .foter{ background-color:#EADEDB;
 background-image: linear-gradient(to bottom right,rgb(94, 93, 93),rgb(193, 194, 193),rgb(112, 112, 112));}
 .tab2{ width: 100%;
@@ -427,6 +423,12 @@ top: 15%;
 width: 100%; }
 .overlay-content img { border-radius: 10px; 
 width: 466px;
+height: 371px; 
+display: block;        
+margin-left: auto;
+margin-right: auto;
+cursor: pointer; }
+.overlay-content div { width: 466px;
 height: 371px; 
 display: block;        
 margin-left: auto;

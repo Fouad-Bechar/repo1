@@ -10,7 +10,7 @@
 </head>
 <body>
 <div class="p1">
-<img class="img01" src="images/image16.webp" alt="image" onclick="myFunction('https://fouad.rf.gd/')"></div> 
+<img class="img01" src="images/image16.webp" alt="image" onclick="myFunction1('https://fouad.rf.gd/')"></div> 
 <?php
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
