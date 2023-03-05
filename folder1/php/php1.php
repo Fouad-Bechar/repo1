@@ -56,7 +56,7 @@ return $data; }
 <tr><td></td></tr><tr><td></td></tr>
 <tr><td><b >File to be attached (< 5Mo)</b></tr><tr><td><input id="bt0" type="file" name="file"/></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
-<tr><td><button type="submit" name="button"  class="butt" onclick="myfunction1()">Send</button> </td></tr>
+<tr><td><button type="submit" name="button" class="butt">Send</button> </td></tr>
 <tr><td></td></tr><tr><td></td></tr>
 </table></fieldset></form><br>
 <button class="prin" onclick="window.print()">Print this page</button>

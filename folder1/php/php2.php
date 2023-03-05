@@ -15,7 +15,7 @@
 use PHPMailer\PHPMailer\PHPMailer;
 use PHPMailer\PHPMailer\SMTP;
 use PHPMailer\PHPMailer\Exception;
-require 'Mailer/autoload.php';
+require 'mailer/autoload.php';
 $username = "epiz_33373847";
 $pasword = "itBv7uZQQu";
 $database = new PDO ("mysql:host=sql210.epizy.com; dbname=epiz_33373847_db1contact; charset=utf8;",$username ,$pasword);
@@ -58,17 +58,17 @@ $addData->bindParam("fileName", $fileName);
 $addData->bindParam("fileType", $fileType);
 $addData->bindParam("position", $position);
 if($addData->execute()) { 
-$mail = new PHPMailer();                    
+$mail = new PHPMailer();                 
 $mail->isSMTP();                                           
-$mail->Host = 'smtp.gmail.com';                    
+$mail->Host = 'smtp.office365.com';                    
 $mail->SMTPAuth = true;                                   
-$mail->Username = 'email.address.fouad@gmail.com';                   
-$mail->Password = 'rsxciabglslrqmhn';                              
-$mail->SMTPSecure = "ssl";           
-$mail->Port = 465;                                    
+$mail->Username = 'Fouad.Bechar@outlook.com';                   
+$mail->Password = '6236#77436&13579##2';                              
+$mail->SMTPSecure = 'tls'; 
+$mail->Port = 587;                                    
 $mail->isHTML(true); 
 $mail->CharSet = "UTF-8";
-$mail->setFrom('email.address.fouad@gmail.com', 'Fouad');
+$mail->setFrom('Fouad.Bechar@outlook.com', 'Fouad');
 $mail->addAddress($email1);
 $mail->Subject = 'Hello my friend';
 $mail->Body = '<!DOCTYPE html> <html lang="en"> <head>
@@ -83,7 +83,6 @@ margin-right: 4%">
 </body> </html>';
 $mail->send();
 echo "<div class=p2>"."<h1 class=hh1>".$prenom1."&nbsp".$nom1."</h1>"."<h2 class=hhh2>"."<p id=demoo>"."</p>"."<p id=demoo1>"."</p>"."</h2>"."</div>"; }
-#"<img src='"."https://cdn.statically.io/img/egyresmag.com/file/2021/03/26tOZ42Mg6pbTUPHW.gif?quality=90&f=auto"."' class='img12' alt='image'/>"; } 
 else { echo "<center>"."<h1 class=hh12>"."Sending error"."</h1>"."</center>"; }
 $database = null; }
 ?>
