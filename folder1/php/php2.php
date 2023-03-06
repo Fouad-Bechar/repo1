@@ -63,7 +63,7 @@ $mail->isSMTP();
 $mail->Host = 'smtp.office365.com';                    
 $mail->SMTPAuth = true;                                   
 $mail->Username = 'Fouad.Bechar@outlook.com';                   
-$mail->Password = '6236#77436&13579##2';                              
+$mail->Password = '';                              
 $mail->SMTPSecure = 'tls'; 
 $mail->Port = 587;                                    
 $mail->isHTML(true); 
