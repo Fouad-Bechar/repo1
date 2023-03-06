@@ -54,9 +54,9 @@ return $data; }
 <tr><td></td></tr><tr><td></td></tr>
 <tr><td><b >Your message</b></td></tr><tr><td><textarea name="textarea"rows="10" cols="50" placeholder="Your message"></textarea></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
-<tr><td><b >File to be attached (< 5Mo)</b></tr><tr><td><input id="bt0" type="file" name="file"/></td></tr>
+<tr><td><b>File to be attached (< 5Mo)</b></tr><tr><td><input id="bt0" type="file" name="file"/></td></tr>
 <tr><td></td></tr><tr><td></td></tr>
-<tr><td><button type="submit" name="button" class="butt">Send</button> </td></tr>
+<tr><td><button id="b1" type="button" name="button" class="butt"  onclick="myFunction01()">Send</button> </td></tr>
 <tr><td></td></tr><tr><td></td></tr>
 </table></fieldset></form><br>
 <button class="prin" onclick="window.print()">Print this page</button>
